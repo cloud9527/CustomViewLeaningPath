@@ -30,7 +30,7 @@ public class ViewArc extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         // x轴正右方向是0度   按顺时针方向。
-        canvas.drawArc(100,200,500,700,-30,45,true,mPaint);
-        canvas.drawArc(100,200,500,700,30,90,true,mPaint);
+        canvas.drawArc(100,200,500,700,90,90,true,mPaint);
+//        canvas.drawArc(100,200,500,700,30,90,true,mPaint);
     }
 }

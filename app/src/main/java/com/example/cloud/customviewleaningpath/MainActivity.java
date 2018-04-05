@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     List<PageModel> pageModels = new ArrayList<>();
     {
         pageModels.add(new PageModel("柱状图",R.layout.view_draw_histogram));
+        pageModels.add(new PageModel("PIE",R.layout.view_draw_pie));
         pageModels.add(new PageModel("drawColor",R.layout.view_draw_color));
         pageModels.add(new PageModel("drawCircle",R.layout.view_draw_circle));
         pageModels.add(new PageModel("drawrect",R.layout.view_draw_rect));
