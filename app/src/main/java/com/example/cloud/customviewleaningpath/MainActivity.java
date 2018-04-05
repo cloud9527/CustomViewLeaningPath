@@ -16,8 +16,16 @@ public class MainActivity extends AppCompatActivity {
     ViewPager pager;
     List<PageModel> pageModels = new ArrayList<>();
     {
+        pageModels.add(new PageModel("柱状图",R.layout.view_draw_histogram));
         pageModels.add(new PageModel("drawColor",R.layout.view_draw_color));
         pageModels.add(new PageModel("drawCircle",R.layout.view_draw_circle));
+        pageModels.add(new PageModel("drawrect",R.layout.view_draw_rect));
+        pageModels.add(new PageModel("point",R.layout.view_draw_point));
+        pageModels.add(new PageModel("oval",R.layout.view_draw_oval));
+        pageModels.add(new PageModel("line",R.layout.view_draw_line));
+        pageModels.add(new PageModel("roundrect",R.layout.view_draw_rount_rect));
+        pageModels.add(new PageModel("arc",R.layout.view_draw_arc));
+        pageModels.add(new PageModel("path",R.layout.view_draw_path));
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
