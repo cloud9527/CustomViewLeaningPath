@@ -22,6 +22,7 @@ public class ViewArc extends View {
 
     public ViewArc(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        //
     }
 
     Paint mPaint = new Paint();
