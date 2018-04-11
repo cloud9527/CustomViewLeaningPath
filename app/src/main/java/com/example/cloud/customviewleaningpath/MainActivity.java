@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager pager;
     List<PageModel> pageModels = new ArrayList<>();
+
+
     {
         pageModels.add(new PageModel("P07ColorMatrixColorFilterView",R.layout.view_draw_view_p07colormatrixcolorfilterview));
         pageModels.add(new PageModel("P06LightingColorFilterView",R.layout.view_draw_view_p06lightingcolorfilterview));
