@@ -16,6 +16,13 @@ public class MainActivity extends AppCompatActivity {
     ViewPager pager;
     List<PageModel> pageModels = new ArrayList<>();
     {
+        pageModels.add(new PageModel("P07ColorMatrixColorFilterView",R.layout.view_draw_view_p07colormatrixcolorfilterview));
+        pageModels.add(new PageModel("P06LightingColorFilterView",R.layout.view_draw_view_p06lightingcolorfilterview));
+        pageModels.add(new PageModel("P05ComposeShaderView",R.layout.view_draw_view_p05composeshaderview));
+        pageModels.add(new PageModel("P04BitmapShaderView",R.layout.view_draw_view_p04bitmapshaderview));
+        pageModels.add(new PageModel("P03SweepGradientView",R.layout.view_draw_p03sweepgradientview));
+        pageModels.add(new PageModel("P02RadiaGradientView",R.layout.view_draw_p02radiagradientview));
+        pageModels.add(new PageModel("P01LinearGradientView",R.layout.view_draw_view_p01lineargradientview));
         pageModels.add(new PageModel("柱状图",R.layout.view_draw_histogram));
         pageModels.add(new PageModel("PIE",R.layout.view_draw_pie));
         pageModels.add(new PageModel("drawColor",R.layout.view_draw_color));
