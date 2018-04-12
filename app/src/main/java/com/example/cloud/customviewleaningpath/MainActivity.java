@@ -18,6 +18,15 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        pageModels.add(new PageModel("Practice16TextPathView",R.layout.view_draw_view_practice16textpathview));
+        pageModels.add(new PageModel("Practice15FillPathView",R.layout.view_draw_view_practice15fillpathview));
+        pageModels.add(new PageModel("Practice14MaskFilterView",R.layout.view_draw_view_practice14maskfilterview));
+        pageModels.add(new PageModel("Practice13ShadowLayerView",R.layout.view_draw_view_practice13shadowlayerview));
+        pageModels.add(new PageModel("Practice12PathEffectView",R.layout.view_draw_view_practice12patheffectview));
+        pageModels.add(new PageModel("Practice11StrokeMiterView",R.layout.view_draw_view_practice11strokemiterview));
+        pageModels.add(new PageModel("Practice10StrokeJoinView",R.layout.view_draw_view_practice10strokejoinview));
+        pageModels.add(new PageModel("Practice09StrokeCapView",R.layout.view_draw_view_practice09strokecapview));
+        pageModels.add(new PageModel("Practice08XfermodeView",R.layout.view_draw_view_practice08xfermodeview));
         pageModels.add(new PageModel("P07ColorMatrixColorFilterView",R.layout.view_draw_view_p07colormatrixcolorfilterview));
         pageModels.add(new PageModel("P06LightingColorFilterView",R.layout.view_draw_view_p06lightingcolorfilterview));
         pageModels.add(new PageModel("P05ComposeShaderView",R.layout.view_draw_view_p05composeshaderview));
