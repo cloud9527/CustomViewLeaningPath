@@ -18,6 +18,18 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        pageModels.add(new PageModel("Practice12MeasureTextView",R.layout.practice_measure_text));
+        pageModels.add(new PageModel("Practice11GetFontSpacingView",R.layout.practice_get_font_spacing));
+        pageModels.add(new PageModel("Practice10SetTextAlignView",R.layout.practice_set_text_align));
+        pageModels.add(new PageModel("Practice09SetTextScaleXView",R.layout.practice_set_text_scale_x));
+        pageModels.add(new PageModel("Practice08SetTextSkewXView",R.layout.practice_set_text_skew_x));
+        pageModels.add(new PageModel("Practice07SetUnderlineTextView",R.layout.practice_set_underline_text));
+        pageModels.add(new PageModel("Practice06SetStrikeThruTextView",R.layout.practice_set_strike_thru_text));
+        pageModels.add(new PageModel("Practice05SetFakeBoldTextView",R.layout.practice_set_fake_bold_text));
+        pageModels.add(new PageModel("Practice04SetTypefaceView",R.layout.practice_set_typeface));
+        pageModels.add(new PageModel("Practice03SetTextSizeView",R.layout.practice_set_text_size));
+        pageModels.add(new PageModel("Practice02StaticLayoutView",R.layout.practice_static_layout));
+        pageModels.add(new PageModel("Practice01DrawTextView",R.layout.practice_draw_text));
         pageModels.add(new PageModel("Practice16TextPathView",R.layout.view_draw_view_practice16textpathview));
         pageModels.add(new PageModel("Practice15FillPathView",R.layout.view_draw_view_practice15fillpathview));
         pageModels.add(new PageModel("Practice14MaskFilterView",R.layout.view_draw_view_practice14maskfilterview));
