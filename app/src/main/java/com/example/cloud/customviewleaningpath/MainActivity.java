@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        pageModels.add(new PageModel("Practice14GetFontMetricsView",R.layout.practice_get_font_metrics));
+        pageModels.add(new PageModel("Practice13GetTextBoundsView",R.layout.practice_get_text_bounds));
         pageModels.add(new PageModel("Practice12MeasureTextView",R.layout.practice_measure_text));
         pageModels.add(new PageModel("Practice11GetFontSpacingView",R.layout.practice_get_font_spacing));
         pageModels.add(new PageModel("Practice10SetTextAlignView",R.layout.practice_set_text_align));
