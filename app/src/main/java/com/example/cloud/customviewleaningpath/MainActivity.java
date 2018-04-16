@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        pageModels.add(new PageModel("Practice01ClipRectView",R.layout.view_draw_view_practice01cliprectview));
         pageModels.add(new PageModel("Practice14GetFontMetricsView",R.layout.practice_get_font_metrics));
         pageModels.add(new PageModel("Practice13GetTextBoundsView",R.layout.practice_get_text_bounds));
         pageModels.add(new PageModel("Practice12MeasureTextView",R.layout.practice_measure_text));
