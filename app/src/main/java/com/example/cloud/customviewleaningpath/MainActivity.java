@@ -18,6 +18,17 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        pageModels.add(new PageModel("Practice13CameraRotateHittingFaceView",R.layout.view_draw_view_practice13camerarotatehittingfaceview));
+        pageModels.add(new PageModel("Practice12CameraRotateFixedView",R.layout.view_draw_view_practice12camerarotatefixedview));
+        pageModels.add(new PageModel("Practice11CameraRotateView",R.layout.view_draw_view_practice11camerarotateview));
+        pageModels.add(new PageModel("Practice10MatrixSkewView",R.layout.view_draw_view_practice10matrixskewview));
+        pageModels.add(new PageModel("Practice09MatrixRotateView",R.layout.view_draw_view_practice09matrixrotateview));
+        pageModels.add(new PageModel("Practice08MatrixScaleView",R.layout.view_draw_view_practice08matrixscaleview));
+        pageModels.add(new PageModel("Practice06SkewView",R.layout.view_draw_view_practice06skewview));
+        pageModels.add(new PageModel("Practice05RotateView",R.layout.view_draw_view_practice05rotateview));
+        pageModels.add(new PageModel("Practice04ScaleView",R.layout.view_draw_view_practice04scaleview));
+        pageModels.add(new PageModel("Practice03TranslateView",R.layout.view_draw_view_practice03translateview));
+        pageModels.add(new PageModel("Practice02ClipPathView",R.layout.view_draw_view_practice02clippathview));
         pageModels.add(new PageModel("Practice01ClipRectView",R.layout.view_draw_view_practice01cliprectview));
         pageModels.add(new PageModel("Practice14GetFontMetricsView",R.layout.practice_get_font_metrics));
         pageModels.add(new PageModel("Practice13GetTextBoundsView",R.layout.practice_get_text_bounds));

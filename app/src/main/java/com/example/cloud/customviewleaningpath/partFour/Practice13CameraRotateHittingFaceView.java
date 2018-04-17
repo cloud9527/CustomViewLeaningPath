@@ -25,6 +25,9 @@ public class Practice13CameraRotateHittingFaceView extends View {
     Camera camera = new Camera();
     Matrix matrix = new Matrix();
     int degree;
+
+    // camera + animator 实现动画效果
+    //matrix 来修 camera显示问题
     ObjectAnimator animator = ObjectAnimator.ofInt(this, "degree", 0, 360);
 
     public Practice13CameraRotateHittingFaceView(Context context) {
@@ -41,9 +44,9 @@ public class Practice13CameraRotateHittingFaceView extends View {
 
     {
         bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.maps);
-        Bitmap scaledBitmap = Bitmap.createScaledBitmap(bitmap, bitmap.getWidth() * 2, bitmap.getHeight() * 2, true);
-        bitmap.recycle();
-        bitmap = scaledBitmap;
+//        Bitmap scaledBitmap = Bitmap.createScaledBitmap(bitmap, bitmap.getWidth() * 2, bitmap.getHeight() * 2, true);
+//        bitmap.recycle();
+//        bitmap = scaledBitmap;
 
         animator.setDuration(5000);
         animator.setInterpolator(new LinearInterpolator());
@@ -76,7 +79,7 @@ public class Practice13CameraRotateHittingFaceView extends View {
         int bitmapHeight = bitmap.getHeight();
         int centerX = point.x + bitmapWidth / 2;
         int centerY = point.y + bitmapHeight / 2;
-
+//
         camera.save();
         matrix.reset();
         camera.rotateX(degree);
