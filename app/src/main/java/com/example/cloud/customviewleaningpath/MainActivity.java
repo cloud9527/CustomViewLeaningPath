@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     {
+        pageModels.add(new PageModel("Practice14FlipboardView",R.layout.view_draw_view_practice14flipboardview));
         pageModels.add(new PageModel("Practice13CameraRotateHittingFaceView",R.layout.view_draw_view_practice13camerarotatehittingfaceview));
         pageModels.add(new PageModel("Practice12CameraRotateFixedView",R.layout.view_draw_view_practice12camerarotatefixedview));
         pageModels.add(new PageModel("Practice11CameraRotateView",R.layout.view_draw_view_practice11camerarotateview));
